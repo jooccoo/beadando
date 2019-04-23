@@ -72,29 +72,39 @@ int hasonlit_rendszam(const void* x1, const void* x2) // qsorthoz függvény, re
 	return strcmp(a->rendszam,b->rendszam);
 }
 
-void visszaesok(MERESI_ADAT* p, int meresek_szama, FILE* ment) //visszaeso kihagok rendezese és kiírása
+void visszaesok_fix(MERESI_ADAT* p, int meresek_szama, FILE* ment) //visszaeso kihagok rendezese és kiírása
 {
   qsort(p, meresek_szama, sizeof(MERESI_ADAT), hasonlit_rendszam); //rendszamok rendezese
-  int i, j, db_rendszam=0;
-  for(i = 0; i < meresek_szama; i++)
-    for(j = i+1; j < meresek_szama; j++)
-      if(strcmp(p[j].rendszam, p[i].rendszam) == 0)
+  int i, db_rendszam=0;
+  for(i = 0; i < meresek_szama-1; i++)
+      if(strstr(p[i].rendszam, p[i+1].rendszam) != 0)
         {
             if(db_rendszam==0)
                 {
                     fprintf(ment, "Visszatero szabalysertok:\n");
-                    fprintf(ment, "%s\n",p[i].rendszam);
                     db_rendszam++;
+                    if(strstr(p[i].rendszam, p[i+2].rendszam) != 0)
+                        continue;
+                    else
+                    {
+                        fprintf(ment, "%s\n",p[i].rendszam);
+                        db_rendszam++;
+                    }
+
                 }
                 else
                 {
+                    if(strcmp(p[i+1].rendszam, p[i+2].rendszam) != 0)
+                    {
                     fprintf(ment,"%s\n",p[i].rendszam);
                     db_rendszam++;
+                    }
                 }
         }
         if(db_rendszam == 0)
             fprintf(ment, "Nincs visszatero szabalyserto.\n");
 }
+
 
 void hely_megoszlas(FAJL_ADATOK* v, int fajlok_szama, int osszes_meres_db, FILE* ment) //mérési hely szerinti eloszlas számolás és listázás
 {
@@ -310,7 +320,6 @@ int main(int argc, char *argv[]) // argumentum beolvasása
                     t[db].sebesseg = 0;
                     t[db].sebesseg_tullepes = 0;
                     token = strtok(NULL, ";");
-                    token[strlen ( token )-1] = '\0'; // sorvégejel felülírása
                     strcpy(t[db].rendszam, token);
                 }
 
@@ -335,8 +344,11 @@ int main(int argc, char *argv[]) // argumentum beolvasása
     kihagas_megoszlas(k,db,ment); // kihagasok összegzése, kiírása 3.feladat.
     qsort(t, db, sizeof(MERESI_ADAT), hasonlit_gyorshajto);
     gyorshajtok(t, k[0].db, ment); // gyorshajtok rendezese es listazasa 4.feladat
-    visszaesok(t, db, ment); //visszaeso szabalysertok 5.feladat
+    visszaesok_fix(t, db, ment); //visszaeso szabalysertok 5.feladat
     fclose(ment);
+    for(index=0;index<db;index++)
+        printf("%s\n",t[index].rendszam);
+
     free(t); //memoria felszabitas
     free(p);
     return 0;

@@ -11,7 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="szigetvar.csv bocskaikert.csv dunakeszi.csv debrecen_jozsa_35.csv" />
+				<Option parameters="szigetvar.csv bocskaikert.csv dunakeszi.csv debrecen35.csv" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>

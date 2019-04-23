@@ -1,33 +1,31 @@
-A honap soran 36 birsag kerult kiszabasra, osszesen 1510000 forint ertekben.
+A honap soran 27 birsag kerult kiszabasra, osszesen 1080000 forint ertekben.
 
 Megoszlas ellenorzo pontok szerint:
-22.22% - Dunakeszi M2 17+981 kilometerszelveny
-19.44% - Debrecen 35. sz. fout 76+836 kilometerszelveny
-19.44% - Szigetvar 67. sz. fout 3+357 kilometerszelveny
-13.89% - Bocskaikert 4. sz. fout 237+885 kilometerszelveny
-13.89% - Debrecen 33. sz. fout 104+545 kilometerszelveny
-11.11% - Nyiregyhaza M3 jobb 228+775 kilometerszelveny
+29.63% - Dunakeszi M2 17+981 kilometerszelveny
+25.93% - Debrecen 35. sz. fout 76+836 kilometerszelveny
+25.93% - Szigetvar 67. sz. fout 3+357 kilometerszelveny
+18.52% - Bocskaikert 4. sz. fout 237+885 kilometerszelveny
 
 Megoszlas szabalysertes tipusa szerint:
-63.89% - gyorshajtas
-2.78% - vasuti_atjaro
-16.67% - piros_lampa
-2.78% - leallosav
-2.78% - behajtasi_tilalom
-8.33% - kotelezo_haladas
-2.78% - korlatozott_zona
+66.67% - gyorshajtas
+3.70% - vasuti_atjaro
+14.81% - piros_lampa
+0.00% - leallosav
+3.70% - behajtasi_tilalom
+7.41% - kotelezo_haladas
+3.70% - korlatozott_zona
 
 10 legnagyobb sebessegtullepes:
 Bocskaikert 4. sz. fout 237+885 kilometerszelveny 2019-03-28 15:38 NGR124 50 103
-Debrecen 33. sz. fout 104+545 kilometerszelveny 2019-03-18 11:21 PSN548 70 119
 Dunakeszi M2 17+981 kilometerszelveny 2019-03-26 17:14 MRT847 110 155
 Bocskaikert 4. sz. fout 237+885 kilometerszelveny 2019-03-03 09:20 FRE549 50 90
 Bocskaikert 4. sz. fout 237+885 kilometerszelveny 2019-03-22 04:38 NGR124 50 83
-Nyiregyhaza M3 jobb 228+775 kilometerszelveny 2019-03-01 23:27 RSA167 130 162
 Dunakeszi M2 17+981 kilometerszelveny 2019-03-14 15:09 LTW831 110 137
-Debrecen 33. sz. fout 104+545 kilometerszelveny 2019-03-26 13:08 NDL547 70 97
-Nyiregyhaza M3 jobb 228+775 kilometerszelveny 2019-03-12 05:11 KOX004 130 155
 Debrecen 35. sz. fout 76+836 kilometerszelveny 2019-03-20 07:06 KUE671 90 113
+Bocskaikert 4. sz. fout 237+885 kilometerszelveny 2019-03-08 23:15 NET068 50 71
+Dunakeszi M2 17+981 kilometerszelveny 2019-03-01 16:55 KRZ402 110 130
+Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-30 20:11 IWP174S 90 107
+Debrecen 35. sz. fout 76+836 kilometerszelveny 2019-03-27 20:07 KSS781 90 107
 
 Visszatero szabalysertok:
 KUE671
