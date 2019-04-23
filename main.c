@@ -90,7 +90,6 @@ void visszaesok_fix(MERESI_ADAT* p, int meresek_szama, FILE* ment) //visszaeso k
                         fprintf(ment, "%s\n",p[i].rendszam);
                         db_rendszam++;
                     }
-
                 }
                 else
                 {
@@ -104,7 +103,6 @@ void visszaesok_fix(MERESI_ADAT* p, int meresek_szama, FILE* ment) //visszaeso k
         if(db_rendszam == 0)
             fprintf(ment, "Nincs visszatero szabalyserto.\n");
 }
-
 
 void hely_megoszlas(FAJL_ADATOK* v, int fajlok_szama, int osszes_meres_db, FILE* ment) //mérési hely szerinti eloszlas számolás és listázás
 {
@@ -346,9 +344,6 @@ int main(int argc, char *argv[]) // argumentum beolvasása
     gyorshajtok(t, k[0].db, ment); // gyorshajtok rendezese es listazasa 4.feladat
     visszaesok_fix(t, db, ment); //visszaeso szabalysertok 5.feladat
     fclose(ment);
-    for(index=0;index<db;index++)
-        printf("%s\n",t[index].rendszam);
-
     free(t); //memoria felszabitas
     free(p);
     return 0;
