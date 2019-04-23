@@ -93,7 +93,7 @@ void visszaesok_fix(MERESI_ADAT* p, int meresek_szama, FILE* ment) //visszaeso k
                 }
                 else
                 {
-                    if(strcmp(p[i+1].rendszam, p[i+2].rendszam) != 0)
+                    if(strstr(p[i+1].rendszam, p[i+2].rendszam) != 0)
                     {
                     fprintf(ment,"%s\n",p[i].rendszam);
                     db_rendszam++;
