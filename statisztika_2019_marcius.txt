@@ -1,7 +1,7 @@
 A honap soran 10 birsag kerult kiszabasra, osszesen 470000 forint ertekben.
 
 Megoszlas ellenorzo pontok szerint:
-100.00% - Szigetvar 67. sz. fout 3+357 kilometerszelveny
+100.00% - Solymar 2. sz. fout 3+357 kilometerszelveny
 
 Megoszlas szabalysertes tipusa szerint:
 90.00% - gyorshajtas
@@ -13,15 +13,15 @@ Megoszlas szabalysertes tipusa szerint:
 0.00% - korlatozott_zona
 
 9 legnagyobb sebessegtullepes:
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-02 05:07 CVO223 90 155
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-10 12:32 MRZ667 90 144
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-13 23:56 MPQ832 90 143
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-30 21:18 ONC541 90 128
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-14 00:12 MRZ667 90 126
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-02 02:36 MPQ832 90 117
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-19 06:30 ZRC655 90 117
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-22 08:08 CVO223 90 116
-Szigetvar 67. sz. fout 3+357 kilometerszelveny 2019-03-11 14:25 ZRC655 90 116
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-02 05:07 CVO223 90 155
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-10 12:32 MRZ667 90 144
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-13 23:56 MPQ832 90 143
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-30 21:18 ONC541 90 128
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-14 00:12 MRZ667 90 126
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-02 02:36 MPQ832 90 117
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-19 06:30 ZRC655 90 117
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-22 08:08 CVO223 90 116
+Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-11 14:25 ZRC655 90 116
 
 Visszatero szabalysertok:
 CVO223

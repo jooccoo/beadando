@@ -344,7 +344,6 @@ int main(int argc, char *argv[]) // argumentum beolvasása
     gyorshajtok(t, k[0].db, ment); // gyorshajtok rendezese es listazasa 4.feladat
     visszaesok_fix(t, db, ment); //visszaeso szabalysertok 5.feladat
     fclose(ment);
-    int i;
     free(t); //memoria felszabitas
     free(p);
     return 0;
