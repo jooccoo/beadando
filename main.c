@@ -107,7 +107,7 @@ void visszaesok_fix(MERESI_ADAT* p, int meresek_szama, FILE* ment) //visszaeso k
 void hely_megoszlas(FAJL_ADATOK* v, int fajlok_szama, int osszes_meres_db, FILE* ment) //mérési hely szerinti eloszlas számolás és listázás
 {
     int i;
-    float szazalek;
+    float szazalek = 0;
 
     fprintf(ment, "Megoszlas ellenorzo pontok szerint:\n");
     for(i = 0; i < fajlok_szama; i++)
@@ -330,12 +330,15 @@ int main(int argc, char *argv[]) // argumentum beolvasása
             sor++; //sorok számának a növelése
             db++; //mérések száma növelése
         }
-        p[index-1].kihagasok_db=sor-3; //az adott fajlokban talalhato meresek szamanak mentese
+        if(sor<3)
+            p[index-1].kihagasok_db=0;
+        else
+            p[index-1].kihagasok_db=sor-3; //az adott fajlokban talalhato meresek szamanak mentese
         fclose(fp); // megnyitott fajlok bezarasa
         index++; //lepes a következõ fájlra
     }
     bunti=buntetes(t,db); // buntetés nagyságának átadása forintban
-    fprintf(ment, "A honap soran %d birsag kerult kiszabasra, osszesen %lld forint ertekben.\n", db, bunti); // buntetesek szama és nagysága kiírűsa 1.feladat
+    fprintf(ment, "A honap soran %d birsag kerult kiszabasra, osszesen %I64d forint ertekben.\n", db, bunti); // buntetesek szama és nagysága kiírűsa 1.feladat
     fprintf(ment,"\n");
     qsort(p, index-1, sizeof(FAJL_ADATOK), hasonlit_megoszlas); //quicksort rendés előfordulás szerint csökkenőbe
     hely_megoszlas(p,index-1,db, ment); //meres helye szerinti eloszlas 2.feladat

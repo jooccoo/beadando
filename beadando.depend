@@ -1,17 +1,11 @@
 # depslib dependency file v1.0
-1556040721 source:c:\users\joco\desktop\beadando\main.c
+1556065237 source:c:\users\joco\desktop\beadando\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<ctype.h>
 
 1555945852 source:c:\users\joco\desktop\beadando2\beadando\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<ctype.h>
-
-1556059753 source:c:\users\joco\documents\beadando\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

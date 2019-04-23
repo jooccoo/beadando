@@ -1,31 +1,49 @@
-A honap soran 10 birsag kerult kiszabasra, osszesen 470000 forint ertekben.
+A honap soran 54 birsag kerult kiszabasra, osszesen 2335000 forint ertekben.
 
 Megoszlas ellenorzo pontok szerint:
-100.00% - Solymar 2. sz. fout 3+357 kilometerszelveny
+18.52% - Solymar 2. sz. fout 3+357 kilometerszelveny
+14.81% - Dunakeszi M2 17+981 kilometerszelveny
+14.81% - Dunakeszi fout
+12.96% - Debrecen 35. sz. fout 76+836 kilometerszelveny
+12.96% - Szigetvar 67. sz. fout 3+357 kilometerszelveny
+9.26% - Bocskaikert 4. sz. fout 237+885 kilometerszelveny
+9.26% - Debrecen 33. sz. fout 104+545 kilometerszelveny
+7.41% - Nyiregyhaza M3 jobb 228+775 kilometerszelveny
+0.00% - Szigetvar_URES 67. sz. fout 3+357 kilometerszelveny
 
 Megoszlas szabalysertes tipusa szerint:
-90.00% - gyorshajtas
-0.00% - vasuti_atjaro
-0.00% - piros_lampa
-0.00% - leallosav
-0.00% - behajtasi_tilalom
-10.00% - kotelezo_haladas
-0.00% - korlatozott_zona
+64.81% - gyorshajtas
+1.85% - vasuti_atjaro
+16.67% - piros_lampa
+1.85% - leallosav
+1.85% - behajtasi_tilalom
+11.11% - kotelezo_haladas
+1.85% - korlatozott_zona
 
-9 legnagyobb sebessegtullepes:
+10 legnagyobb sebessegtullepes:
 Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-02 05:07 CVO223 90 155
 Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-10 12:32 MRZ667 90 144
 Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-13 23:56 MPQ832 90 143
+Bocskaikert 4. sz. fout 237+885 kilometerszelveny 2019-03-28 15:38 NGR124 50 103
+Debrecen 33. sz. fout 104+545 kilometerszelveny 2019-03-18 11:21 PSN548 70 119
+Dunakeszi fout 2019.03.26 17:14 MRT847 110 155
+Dunakeszi M2 17+981 kilometerszelveny 2019-03-26 17:14 MRT847 110 155
+Bocskaikert 4. sz. fout 237+885 kilometerszelveny 2019-03-03 09:20 FRE549 50 90
 Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-30 21:18 ONC541 90 128
 Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-14 00:12 MRZ667 90 126
-Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-02 02:36 MPQ832 90 117
-Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-19 06:30 ZRC655 90 117
-Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-22 08:08 CVO223 90 116
-Solymar 2. sz. fout 3+357 kilometerszelveny 2019-03-11 14:25 ZRC655 90 116
 
 Visszatero szabalysertok:
 CVO223
+FAO549
+KRZ402
+KUE671
+LAD003
+LTW831
+MM25USZ
 MPQ832
+MRT847
 MRZ667
+NGR124
 ONC541
+ROB791
 ZRC655
