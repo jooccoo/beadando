@@ -165,7 +165,7 @@ void kihagas_szamolas(KIHAGAS_STAT* p, char *kihagas_tip) // kihagasok osszesít
         p[6].db++;
 }
 
-int buntetes(MERESI_ADAT* p, int meresek_szama) //büntetések összesítése
+long long int buntetes(MERESI_ADAT* p, int meresek_szama) //büntetések összesítése
 {
     int i, tmp;
     long long int buntetes_osszege=0;
@@ -330,7 +330,7 @@ int main(int argc, char *argv[]) // argumentum beolvasása
             sor++; //sorok számának a növelése
             db++; //mérések száma növelése
         }
-        if(sor<3)
+        if(sor<=3)
             p[index-1].kihagasok_db=0;
         else
             p[index-1].kihagasok_db=sor-3; //az adott fajlokban talalhato meresek szamanak mentese
@@ -338,7 +338,7 @@ int main(int argc, char *argv[]) // argumentum beolvasása
         index++; //lepes a következõ fájlra
     }
     bunti=buntetes(t,db); // buntetés nagyságának átadása forintban
-    fprintf(ment, "A honap soran %d birsag kerult kiszabasra, osszesen %I64d forint ertekben.\n", db, bunti); // buntetesek szama és nagysága kiírűsa 1.feladat
+    fprintf(ment, "A honap soran %d birsag kerult kiszabasra, osszesen %lld forint ertekben.\n", db, bunti); // buntetesek szama és nagysága kiírűsa 1.feladat
     fprintf(ment,"\n");
     qsort(p, index-1, sizeof(FAJL_ADATOK), hasonlit_megoszlas); //quicksort rendés előfordulás szerint csökkenőbe
     hely_megoszlas(p,index-1,db, ment); //meres helye szerinti eloszlas 2.feladat
